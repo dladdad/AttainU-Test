@@ -1,0 +1,70 @@
+ /* CSS for index file goes here */
+ 
+    body{        
+        padding: 40px 0;
+		margin: 0;
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+    .fixed-header{
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+    }
+    .container{
+        margin: 0 2em; /* Center the DIV horizontally */
+    }
+    nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+	.center{
+		text-align:center
+	}
+	.button{
+		background: #006400;
+		border-radius:8px;
+		padding: 0.25em 1em;
+		color:#ffffff;
+	}
+	.border{
+		margin: 2em 0 1em;
+		padding: 1em 3em;
+		border-style: solid;
+		text-align:center;
+	}
+	.bg{
+		background: #dcdcdc;
+	}
+	.border1{
+		width: max-content;
+		padding: 0 .25em;
+		border-style: ridge;
+		margin: 0 .25em;
+	}
+	.borderp{
+		display: inline-flex;
+		padding: 0.25em;
+		margin-bottom:1em;
+	}
+	.border2{
+		text-align: left;
+		padding: 0 .25em;
+		border-style: solid;
+		margin: 1em .25em;
+	}
+	.buttonpre{
+		background: #006400;
+		border-radius:8px;
+		padding: 0.25em 1em;
+		float:right;
+		color:#ffffff;
+	}
